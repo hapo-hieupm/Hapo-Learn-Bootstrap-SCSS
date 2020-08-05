@@ -22,7 +22,7 @@
       &:hover {
         color: $primary-color !important;
         font-size: 18px;
-        @include primary_btn(#FFFFFF, 10px 12px, none, 17px);
+        @include primary-btn(#FFFFFF, 10px 12px, none, 17px);
       }
     }
   }
