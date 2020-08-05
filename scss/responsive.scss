@@ -20,7 +20,7 @@
       font-size: 16px;
       line-height: 22px;
       &:hover {
-        color: $primary_color !important;
+        color: $primary-color !important;
         font-size: 18px;
         @include primary_btn(#FFFFFF, 10px 12px, none, 17px);
       }
