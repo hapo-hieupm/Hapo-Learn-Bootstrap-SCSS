@@ -10,11 +10,11 @@ $primary_color : #B2D235;
   color: $color; 
 }
 
-@mixin primary-btn($bg-color, $padding, $shadow, $border-radius) {
-  background-color: $bg-color;
+@mixin primary-btn($bg_color, $padding, $shadow, $border_radius) {
+  background-color: $bg_color;
   padding: $padding;
   box-shadow: $shadow;
-  border-radius: $border-radius;
+  border-radius: $border_radius;
   transition: 0s;
   text-align: center;
 }
