@@ -10,7 +10,7 @@ $primary-color : #B2D235;
   color: $color; 
 }
 
-@mixin primary_btn($bg_color, $padding, $shadow, $border-radius) {
+@mixin primary-btn($bg-color, $padding, $shadow, $border-radius) {
   background-color: $bg-color;
   padding: $padding;
   box-shadow: $shadow;
