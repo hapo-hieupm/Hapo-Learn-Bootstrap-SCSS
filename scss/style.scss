@@ -1,0 +1,38 @@
+@import 'variable';
+
+* {
+  list-style-type: none;
+  list-style: none;
+}
+
+header {
+  .navbar-toggler.collapsed .close-icon {
+    display: none;
+  }
+  
+  .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+    display: inline;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: 0;
+  }
+  
+  .nav-link {
+    text-transform: uppercase;
+    @include text(bold 14px/19px 'Open Sans', #505353);
+    @include primary-btn(transparent, 10px 12px, none, 17px);
+    &:hover {
+      color: #FEFFFF !important;
+      background-color: $primary_color;
+    }
+  }
+  
+  .img-logo {
+    width: 340px;
+    height: 70px;
+  }
+}
+
+@import 'responsive';
