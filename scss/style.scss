@@ -65,13 +65,13 @@ header {
     opacity: 1;
     transition: 0.3s;
     @include text(bold 30px/37px 'UTM BryantLG', #FFFFFF);
-    @include primaryBtn($primary_color, 10px 50px, inset 0px 4px 4px rgba(0, 0, 0, 0.25), 35px);
+    @include primaryBtn($primary_color, 10px 50px, inset 0 4px 4px rgba(0, 0, 0, 0.25), 35px);
     
     &:hover {
       font-size: 31px;
       opacity: 0.9;
       padding: 13px 50px;
-      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     }
   }
 	
