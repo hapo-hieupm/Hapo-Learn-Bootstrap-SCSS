@@ -11,19 +11,20 @@
 </head>
 <body>
     <header class="container-fluid">
-        <nav class="row d-flex flex-xl-nowrap flex-md-wrap justify-content-xl-between mx-xl-5 my-xl-3 justify-content-md-center justify-content-start my-2 navbar navbar-expand-sm navbar-light">
+        <nav class="row d-flex flex-xl-row flex-md-column justify-content-xl-between mx-xl-5 my-xl-3 
+        align-content-md-center justify-content-start my-2 navbar navbar-expand-sm navbar-light">
             <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" 
-            class="navbar-toggler collapsed border-0 col-1" data-target="#navbarNav" data-toggle="collapse" type="button">
-                <span class="navbar-toggler-icon"></span>
-                <div class="close-icon py-1">
+            class="navbar-toggler collapsed border-0 col-2" data-target="#navbarNav" data-toggle="collapse" type="button">
+                <div class="navbar-toggler-icon"></div>
+                <div class="close-icon py-1 hidden">
                 ✖
                 </div>
             </button>
-            <div class="col-xl-4 col-sm-12 col-10 d-flex justify-content-xl-start justify-content-center navbar-brand">
+            <div class="col-xl-4 col-9 d-flex justify-content-xl-start justify-content-center navbar-brand">
                 <img alt="HapoLearn" class="img-logo"src="image/hapo_learn.png">
             </div>
-            <div class="col-xl-8 col-12 d-md-flex justify-content-xl-end justify-content-center collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="col-xl-8 col-12 collapse navbar-collapse" id="navbarNav">
+                <ul class="col-12 d-flex justify-content-xl-end justify-content-md-between navbar-nav pl-3">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Home</a>
                     </li>
@@ -46,6 +47,17 @@
             </div>
         </nav>
     </header>
+    <section class="banner container-fluid d-flex align-items-md-center align-items-start justify-content-md-start ml-xl-5">
+        <ul>
+            <li class="title">Learn Anytime, Anywhere</li>
+            <li class="title medium">at HapoLearn <img class="img-cu" alt="cu" src="image/cu.png"> !</li>
+            <li class="text pb-xl-2 mb-4">Interactive lessons, "on-the-go"<br>
+            practice, peer support.</li>
+            <li>
+                <a class="text-btn" href="#">Start Learning Now!</a>
+            </li>
+        </ul>
+    </section>
     </script>
     <script src="https://kit.fontawesome.com/bd9ef981d0.js">
     </script> 
