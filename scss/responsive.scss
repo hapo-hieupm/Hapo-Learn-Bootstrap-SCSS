@@ -192,6 +192,7 @@
       line-height: 22px;
       &:hover {
         font-size: 19px;
+        @include primaryBtn(#FFFFFF, 10px 12px, none, 17px);
       }
     }
   }

@@ -6,10 +6,11 @@ $pri_text_color:  #505353;;
   src: url('../font/UTM_BryantLG.ttf');
 }
 
-@mixin text($font,$color) {
+@mixin text($font, $color) {
   font: $font;
   color: $color !important; 
 }
+
 
 @mixin primaryBtn($bg_color, $padding, $shadow, $border_radius) {
   text-decoration: none;
