@@ -43,6 +43,52 @@
       height: 26px;
     }
   }
+
+  .bg-grey-gradient {
+    height: 472px;
+  }
+  
+  .course {
+    .card {
+      margin: 0% 1%;
+    }
+    
+    .img-bg {
+      height: 131.24px;
+    }
+    
+    .img-html-css {
+      width: 152.12px;
+      height: 84.6px;
+    }
+    
+    .img-laravel {
+      width: 112.24px;
+      height: 76.3px;
+    }
+    
+    .img-php {
+      width: 150px;
+      height: 83px;
+    }
+    
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .text-small {
+      line-height: 18px;
+    }
+    
+    .button {
+      font-size: 10px;
+      line-height: 12px;
+      &:hover {
+        font-size: 11px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -103,6 +149,50 @@
     .img-cu {
       width: 29px;
       height: 26px;
+    }
+  }
+
+  .bg-grey-gradient {
+    height: 500px;
+  }
+  
+  .course {
+    margin-top: -17%;
+    
+    .card {
+      margin: 3% 0;
+    }
+    
+    .img-bg {
+      height: 163px;
+    }
+    
+    .img-html-css {
+      width: 171px;
+      height: 95px;
+    }
+    
+    .img-laravel {
+      width: 139.15px;
+      height: 94.59px;
+    }
+    
+    .img-php {
+      width: 174px;
+      height: 97px;
+    }
+    
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .button {
+      font-size: 18px;
+      line-height: 22px;
+      &:hover {
+        font-size: 19px;
+      }
     }
   }
 }

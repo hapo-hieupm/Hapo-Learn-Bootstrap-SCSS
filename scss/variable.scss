@@ -12,6 +12,7 @@ $pri_text_color:  #505353;;
 }
 
 @mixin primaryBtn($bg_color, $padding, $shadow, $border_radius) {
+  text-decoration: none;
   background-color: $bg_color !important;
   padding: $padding !important;
   box-shadow: $shadow;
