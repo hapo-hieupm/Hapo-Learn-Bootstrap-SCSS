@@ -47,12 +47,32 @@
   .bg-grey-gradient {
     height: 472px;
   }
-  
+
+  .other-course,
   .course {
     .card {
       margin: 0% 1%;
     }
     
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .text-small {
+      line-height: 18px;
+    }
+    
+    .button {
+      font-size: 10px;
+      line-height: 12px;
+      &:hover {
+        font-size: 11px;
+      }
+    }
+  }
+  
+  .course {
     .img-bg {
       height: 131.24px;
     }
@@ -71,21 +91,55 @@
       width: 150px;
       height: 83px;
     }
-    
-    .text-big {
-      font-size: 20px;
-      line-height: 25px;
+  }
+  
+  .feedback,
+  .statistic,
+  .other-course {
+    .text-title {
+      font-size: 50px;
+      line-height: 61px;
+      
+      hr {
+        height: 4px;
+      }
+    }
+  }
+  
+  .other-course {
+    .img-bg {
+      height: 131.24px;
     }
     
-    .text-small {
-      line-height: 18px;
+    .img-css {
+      width: 158px;
+      height: 60px;
     }
     
-    .button {
-      font-size: 10px;
-      line-height: 12px;
+    .img-ruby {
+      width: 171px;
+      height: 60.12px;
+    }
+    
+    .img-java {
+      width: 169px;
+      height: 105px;
+    }
+    
+    .text-link {
+      font-size: 28px;
+      line-height: 34px;
+      -webkit-text-stroke: 0.75px #90AB26;
+      
       &:hover {
-        font-size: 11px;
+        font-size: 30px;
+        -webkit-text-stroke: 1px #90AB26;
+      }
+    }
+    
+    .text-title {
+      hr {
+        width: 303px;
       }
     }
   }
@@ -155,13 +209,29 @@
   .bg-grey-gradient {
     height: 500px;
   }
-  
+
+  .other-course,
   .course {
-    margin-top: -17%;
-    
     .card {
       margin: 3% 0;
     }
+    
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .button {
+      font-size: 18px;
+      line-height: 22px;
+      &:hover {
+        font-size: 19px;
+      }
+    }
+  }
+  
+  .course {
+    margin-top: -17%;
     
     .img-bg {
       height: 163px;
@@ -181,17 +251,59 @@
       width: 174px;
       height: 97px;
     }
+  }
+  
+  .feedback,
+  .statistic,
+  .other-course {
+    margin-top: 10%;
     
-    .text-big {
-      font-size: 20px;
-      line-height: 25px;
+    .text-title {
+      font-size: 40px;
+      line-height: 49px;
+      -webkit-text-stroke: 0.75px #11114E;
+      ;
+      
+      hr {
+        height: 3px;
+      }
+    }
+  }
+  
+  .other-course {
+    .img-bg {
+      height: 163px;
     }
     
-    .button {
-      font-size: 18px;
-      line-height: 22px;
+    .img-css {
+      width: 168px;
+      height: 104px;
+    }
+    
+    .img-ruby {
+      width: 193px;
+      height: 67.86px;
+    }
+    
+    .img-java {
+      width: 193px;
+      height: 119px;
+    }
+    
+    .text-link {
+      font-size: 22px;
+      line-height: 27px;
+      -webkit-text-stroke: 0.5px #90AB26;
+      
       &:hover {
-        font-size: 19px;
+        font-size: 24px;
+        -webkit-text-stroke: 0.75px #90AB26;
+      }
+    }
+    
+    .text-title {
+      hr {
+        width: 245px;
       }
     }
   }
