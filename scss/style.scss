@@ -26,7 +26,7 @@ header {
     text-transform: uppercase;
     @include text(bold 14px/19px 'Open Sans', #505353);
     @include primaryBtn(transparent, 10px 12px, none, 17px);
-
+    
     &:hover {
       color: #FEFFFF !important;
       background-color: $primary_color !important;
