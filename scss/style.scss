@@ -169,16 +169,10 @@ header {
   .text-title {
     letter-spacing: -0.02em;
     text-align: center;
-    -webkit-text-stroke: 1px #11114E;
-    @include text(bold 80px/98px 'UTM BryantLG', #11114E);
-    
-    hr {
-      height: 6px;
-      background-color: #B2D235;
-      border: 2px solid #B2D235;
-      border-radius: 3px;
-      margin-top: 1%;
-    }
+    -webkit-text-stroke: 1px $title_text_color;
+    @include text(bold 80px/98px 'UTM BryantLG', $title_text_color);
+    border: 8px solid $primary_color;
+    border-radius: 6px;
   }
 }
 
@@ -223,12 +217,6 @@ header {
     &:hover {
       font-size: 48px;
       -webkit-text-stroke: 2px #90AB26;
-    }
-  }
-  
-  .text-title {
-    hr {
-      width: 480px;
     }
   }
 }
