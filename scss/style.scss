@@ -82,13 +82,12 @@ header {
 
 .bg-grey-gradient {
   background: linear-gradient(180deg, #FFFBFB 87.5%, #E7E9EE 100%);
-  height: 860px;
+  height: 53.75rem;
 }
 
 .other-course,
 .course {
   .card {
-    margin: 0% 2%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
   }
@@ -127,12 +126,12 @@ header {
 }
 
 .course {
-  margin-top: -8%;
+  margin-top: -7.5rem;
   
   .img-bg {
-    height: 215px;
+    height: 45%;
   }
-  
+
   .img-bg.left {
     background: #3F6185;
   }
@@ -146,26 +145,21 @@ header {
   }
     
   .img-html-css {
-    width: 226px;
-    height: 125px;
+    padding: 14.8% 20%;
   }
     
   .img-laravel {
-    width: 183.88px;
-    height: 125px;
+    padding: 15% 25%;
   }
     
   .img-php {
-    width: 226px;
-    height: 125px;
+    padding: 16.2% 20%;
   }
 }
 
 .feedback,
 .statistic,
 .other-course {
-  margin-top: 5%;
-  
   .text-title {
     letter-spacing: -0.02em;
     text-align: center;
@@ -174,17 +168,16 @@ header {
     
     hr {
       height: 6px;
-      background-color: #B2D235;
-      border: 2px solid #B2D235;
+      background-color: $primary_color;
+      border: 2px solid $primary_color;
       border-radius: 3px;
-      margin-top: 1%;
     }
   }
 }
 
 .other-course {
   .img-bg {
-    height: 194px;
+    height: 49%;
   }
   
   .img-bg.left {
@@ -200,29 +193,26 @@ header {
   }
   
   .img-css {
-    width: 198px;
-    height: 95px;
+    padding: 16% 12%;
   }
   
   .img-ruby {
-    width: 245px;
-    height: 86.14px;
+    padding: 14% 12%;
   }
   
   .img-java {
-    width: 258px;
-    height: 159px;
+    padding: 2.5% 12%;
   }
   
   .text-link {
     letter-spacing: -0.02em;
     text-align: center;
-    -webkit-text-stroke: 1px #90AB26;
-    @include text(bold 40px/49px 'UTM BryantLG', #90AB26);
+    -webkit-text-stroke: 1px $link_color;
+    @include text(bold 40px/49px 'UTM BryantLG', $link_color);
     
     &:hover {
       font-size: 48px;
-      -webkit-text-stroke: 2px #90AB26;
+      -webkit-text-stroke: 2px $link_color;
     }
   }
   

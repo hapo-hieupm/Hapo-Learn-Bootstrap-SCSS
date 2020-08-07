@@ -45,15 +45,11 @@
   }
 
   .bg-grey-gradient {
-    height: 472px;
+    height: 28.75rem;
   }
 
   .other-course,
-  .course {
-    .card {
-      margin: 0% 1%;
-    }
-    
+  .course {    
     .text-big {
       font-size: 20px;
       line-height: 25px;
@@ -71,26 +67,9 @@
       }
     }
   }
-  
+
   .course {
-    .img-bg {
-      height: 131.24px;
-    }
-    
-    .img-html-css {
-      width: 152.12px;
-      height: 84.6px;
-    }
-    
-    .img-laravel {
-      width: 112.24px;
-      height: 76.3px;
-    }
-    
-    .img-php {
-      width: 150px;
-      height: 83px;
-    }
+    margin-top: -4rem;
   }
   
   .feedback,
@@ -106,34 +85,19 @@
     }
   }
   
+  .card {
+    margin: 0 0.5% !important;
+  }
+
   .other-course {
-    .img-bg {
-      height: 131.24px;
-    }
-    
-    .img-css {
-      width: 158px;
-      height: 60px;
-    }
-    
-    .img-ruby {
-      width: 171px;
-      height: 60.12px;
-    }
-    
-    .img-java {
-      width: 169px;
-      height: 105px;
-    }
-    
     .text-link {
       font-size: 28px;
       line-height: 34px;
-      -webkit-text-stroke: 0.75px #90AB26;
+      -webkit-text-stroke: 0.75px $link_color;
       
       &:hover {
         font-size: 30px;
-        -webkit-text-stroke: 1px #90AB26;
+        -webkit-text-stroke: 1px $link_color;
       }
     }
     
@@ -164,8 +128,7 @@
     }
   }
   
-  .banner {
-    height: 435px;
+  .banner {  
     background-size: 100% 46%;
     background-position: center top;
 
@@ -207,15 +170,11 @@
   }
 
   .bg-grey-gradient {
-    height: 500px;
+    height: 33.5rem;
   }
 
   .other-course,
   .course {
-    .card {
-      margin: 3% 0;
-    }
-    
     .text-big {
       font-size: 20px;
       line-height: 25px;
@@ -231,38 +190,16 @@
   }
   
   .course {
-    margin-top: -17%;
-    
-    .img-bg {
-      height: 163px;
-    }
-    
-    .img-html-css {
-      width: 171px;
-      height: 95px;
-    }
-    
-    .img-laravel {
-      width: 139.15px;
-      height: 94.59px;
-    }
-    
-    .img-php {
-      width: 174px;
-      height: 97px;
-    }
+    margin-top: -10rem;
   }
   
   .feedback,
   .statistic,
   .other-course {
-    margin-top: 10%;
-    
     .text-title {
       font-size: 40px;
       line-height: 49px;
       -webkit-text-stroke: 0.75px #11114E;
-      ;
       
       hr {
         height: 3px;
@@ -271,33 +208,14 @@
   }
   
   .other-course {
-    .img-bg {
-      height: 163px;
-    }
-    
-    .img-css {
-      width: 168px;
-      height: 104px;
-    }
-    
-    .img-ruby {
-      width: 193px;
-      height: 67.86px;
-    }
-    
-    .img-java {
-      width: 193px;
-      height: 119px;
-    }
-    
     .text-link {
       font-size: 22px;
       line-height: 27px;
-      -webkit-text-stroke: 0.5px #90AB26;
+      -webkit-text-stroke: 0.5px $link_color;
       
       &:hover {
         font-size: 24px;
-        -webkit-text-stroke: 0.75px #90AB26;
+        -webkit-text-stroke: 0.75px $link_color;
       }
     }
     
