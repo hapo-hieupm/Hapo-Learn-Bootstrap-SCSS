@@ -165,13 +165,8 @@ header {
     text-align: center;
     -webkit-text-stroke: 1px #11114E;
     @include text(bold 80px/98px 'UTM BryantLG', #11114E);
-    
-    hr {
-      height: 6px;
-      background-color: $primary_color;
-      border: 2px solid $primary_color;
-      border-radius: 3px;
-    }
+    border: 6px solid $primary_color;
+    border-radius: 3px;
   }
 }
 

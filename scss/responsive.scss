@@ -62,6 +62,7 @@
     .button {
       font-size: 10px;
       line-height: 12px;
+      
       &:hover {
         font-size: 11px;
       }
@@ -78,10 +79,7 @@
     .text-title {
       font-size: 50px;
       line-height: 61px;
-      
-      hr {
-        height: 4px;
-      }
+      border-width: 4px;
     }
   }
   
@@ -98,12 +96,6 @@
       &:hover {
         font-size: 30px;
         -webkit-text-stroke: 1px $link_color;
-      }
-    }
-    
-    .text-title {
-      hr {
-        width: 303px;
       }
     }
   }
@@ -183,6 +175,7 @@
     .button {
       font-size: 18px;
       line-height: 22px;
+      
       &:hover {
         font-size: 19px;
       }
@@ -200,10 +193,7 @@
       font-size: 40px;
       line-height: 49px;
       -webkit-text-stroke: 0.75px #11114E;
-      
-      hr {
-        height: 3px;
-      }
+      border-width: 3px;
     }
   }
   
@@ -216,12 +206,6 @@
       &:hover {
         font-size: 24px;
         -webkit-text-stroke: 0.75px $link_color;
-      }
-    }
-    
-    .text-title {
-      hr {
-        width: 245px;
       }
     }
   }
