@@ -43,6 +43,62 @@
       height: 26px;
     }
   }
+
+  .bg-grey-gradient {
+    height: 28.75rem;
+  }
+
+  .other-course,
+  .course {    
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .text-small {
+      line-height: 18px;
+    }
+    
+    .button {
+      font-size: 10px;
+      line-height: 12px;
+      
+      &:hover {
+        font-size: 11px;
+      }
+    }
+  }
+
+  .course {
+    margin-top: -4rem;
+  }
+  
+  .feedback,
+  .statistic,
+  .other-course {
+    .text-title {
+      font-size: 50px;
+      line-height: 61px;
+      border-width: 4px;
+    }
+  }
+  
+  .card {
+    margin: 0 0.5% !important;
+  }
+
+  .other-course {
+    .text-link {
+      font-size: 28px;
+      line-height: 34px;
+      -webkit-text-stroke: 0.75px $link_color;
+      
+      &:hover {
+        font-size: 30px;
+        -webkit-text-stroke: 1px $link_color;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -64,8 +120,7 @@
     }
   }
   
-  .banner {
-    height: 435px;
+  .banner {  
     background-size: 100% 46%;
     background-position: center top;
 
@@ -103,6 +158,55 @@
     .img-cu {
       width: 29px;
       height: 26px;
+    }
+  }
+
+  .bg-grey-gradient {
+    height: 33.5rem;
+  }
+
+  .other-course,
+  .course {
+    .text-big {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    
+    .button {
+      font-size: 18px;
+      line-height: 22px;
+      
+      &:hover {
+        font-size: 19px;
+      }
+    }
+  }
+  
+  .course {
+    margin-top: -10rem;
+  }
+  
+  .feedback,
+  .statistic,
+  .other-course {
+    .text-title {
+      font-size: 40px;
+      line-height: 49px;
+      -webkit-text-stroke: 0.75px #11114E;
+      border-width: 3px;
+    }
+  }
+  
+  .other-course {
+    .text-link {
+      font-size: 22px;
+      line-height: 27px;
+      -webkit-text-stroke: 0.5px $link_color;
+      
+      &:hover {
+        font-size: 24px;
+        -webkit-text-stroke: 0.75px $link_color;
+      }
     }
   }
 }
