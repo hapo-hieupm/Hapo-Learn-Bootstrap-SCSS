@@ -212,6 +212,104 @@ header {
   } 
 }
 
+.why-hapo {
+  background: url('../image/nen_den.jpeg') no-repeat center/cover;
+  
+  .text-big {
+    letter-spacing: -0.02em;
+    -webkit-text-stroke: 1px #FFFFFF;
+    @include text(bold 70px/86px 'UTM BryantLG', #FFFFFF);
+  }
+  
+  .text-ul {
+    @include text(20px/25px 'UTM BryantLG', #FFFFFF);
+  }
+  
+  .img-rotate-computer {
+    width: 478.32px;
+    height: 478.32px;
+    margin: -30% 0 0 -15%;
+    transform: rotate(17.15deg);
+  }
+  
+  .img-computer {
+    padding: 9% 3%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.feedback {
+
+.text-slogan {
+  font: 25px/31px "utm-bryantlg";
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #505353;
+  padding: 2% 0 3%;
+}
+
+.textbox {
+  background: url('../image/feedback_dialog_box.png') no-repeat;
+  width: 586px;
+  height: 183px;
+}
+
+.textbox-text {
+  margin-left: 2%;
+  overflow: auto;
+  width: 497px;
+  height: 89px;
+  font: 16px/20px "utm-bryantlg";
+  letter-spacing: -0.05em;
+  color: #000000;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.btn.left {
+  margin-left: -1%;
+}
+
+.btn.right {
+  margin: 0 -5% 0 3.5%;
+}
+
+.scroll-img {
+  margin-left: 3%;
+  width: 5px;
+  height: 108px;
+}
+
+.scroll-img.right {
+  margin-left: 5%;
+}
+
+.user {
+  padding: 3% 5.5% 0 0;
+}
+
+.ava {
+  float: left;
+  margin: 0 5% 0 0.5%;
+  width: 60px;
+  height: 60px;
+}
+
+.text-user-name {
+  font: bold 20px/25px "utm-bryantlg";
+  color: #11114E;
+  -webkit-text-stroke: 0.5px #11114E;
+}
+
+.text-course-name {
+  font: bold 16px/20px "utm-bryantlg";
+  color: #505353;
+}
+}
+
 .join-banner {
   background: url('../image/nen_xanh_hoa_tiet.png') no-repeat center/cover;
 	
