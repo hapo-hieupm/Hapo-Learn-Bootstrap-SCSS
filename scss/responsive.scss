@@ -45,15 +45,11 @@
   }
 
   .bg-grey-gradient {
-    height: 472px;
+    height: 28.75rem;
   }
 
   .other-course,
-  .course {
-    .card {
-      margin: 0% 1%;
-    }
-    
+  .course {    
     .text-big {
       font-size: 20px;
       line-height: 25px;
@@ -66,31 +62,15 @@
     .button {
       font-size: 10px;
       line-height: 12px;
+      
       &:hover {
         font-size: 11px;
       }
     }
   }
-  
+
   .course {
-    .img-bg {
-      height: 131.24px;
-    }
-    
-    .img-html-css {
-      width: 152.12px;
-      height: 84.6px;
-    }
-    
-    .img-laravel {
-      width: 112.24px;
-      height: 76.3px;
-    }
-    
-    .img-php {
-      width: 150px;
-      height: 83px;
-    }
+    margin-top: -4rem;
   }
   
   .feedback,
@@ -103,35 +83,69 @@
     }
   }
   
+  .card {
+    margin: 0 0.5% !important;
+  }
+
   .other-course {
-    .img-bg {
-      height: 131.24px;
-    }
-    
-    .img-css {
-      width: 158px;
-      height: 60px;
-    }
-    
-    .img-ruby {
-      width: 171px;
-      height: 60.12px;
-    }
-    
-    .img-java {
-      width: 169px;
-      height: 105px;
-    }
-    
     .text-link {
       font-size: 28px;
       line-height: 34px;
-      -webkit-text-stroke: 0.75px #90AB26;
+      -webkit-text-stroke: 0.75px $link_color;
       
       &:hover {
         font-size: 30px;
-        -webkit-text-stroke: 1px #90AB26;
+        -webkit-text-stroke: 1px $link_color;
       }
+    }
+  }
+
+  .join-banner {
+    .text {
+      font-size: 35px;
+      line-height: 43px;
+    }
+    
+    .button {
+      font-size: 20px;
+      line-height: 25px;
+
+      &:hover {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .statistic {
+    .text-medium {
+      font-size: 40px;
+      line-height: 49px;
+    }
+  }
+
+  footer {
+    .text {
+      font-size: 18px;
+      line-height: 22px;
+    
+      &.big {
+        font-size: 18px;
+      }
+      
+      &.medium {
+        font-size: 16px;
+        line-height: 20px;
+      }  
+    }
+    
+    .img-hapo-learn {
+      width: 170px;
+      height: 35.38px;
+    }
+    
+    .link-img {
+      width: 40px;
+      height: 40px;
     }
   }
 }
@@ -156,8 +170,7 @@
     }
   }
   
-  .banner {
-    height: 435px;
+  .banner {  
     background-size: 100% 46%;
     background-position: center top;
 
@@ -199,15 +212,11 @@
   }
 
   .bg-grey-gradient {
-    height: 500px;
+    height: 33.5rem;
   }
 
   .other-course,
   .course {
-    .card {
-      margin: 3% 0;
-    }
-    
     .text-big {
       font-size: 20px;
       line-height: 25px;
@@ -216,6 +225,7 @@
     .button {
       font-size: 18px;
       line-height: 22px;
+      
       &:hover {
         font-size: 19px;
       }
@@ -223,33 +233,12 @@
   }
   
   .course {
-    margin-top: -17%;
-    
-    .img-bg {
-      height: 163px;
-    }
-    
-    .img-html-css {
-      width: 171px;
-      height: 95px;
-    }
-    
-    .img-laravel {
-      width: 139.15px;
-      height: 94.59px;
-    }
-    
-    .img-php {
-      width: 174px;
-      height: 97px;
-    }
+    margin-top: -10rem;
   }
   
   .feedback,
   .statistic,
   .other-course {
-    margin-top: 10%;
-    
     .text-title {
       font-size: 40px;
       line-height: 49px;
@@ -259,34 +248,58 @@
   }
   
   .other-course {
-    .img-bg {
-      height: 163px;
-    }
-    
-    .img-css {
-      width: 168px;
-      height: 104px;
-    }
-    
-    .img-ruby {
-      width: 193px;
-      height: 67.86px;
-    }
-    
-    .img-java {
-      width: 193px;
-      height: 119px;
-    }
-    
     .text-link {
       font-size: 22px;
       line-height: 27px;
-      -webkit-text-stroke: 0.5px #90AB26;
+      -webkit-text-stroke: 0.5px $link_color;
       
       &:hover {
         font-size: 24px;
-        -webkit-text-stroke: 0.75px #90AB26;
+        -webkit-text-stroke: 0.75px $link_color;
       }
+    }
+  }
+
+  .join-banner {
+    .text {
+      font-size: 23px;
+      line-height: 28px;
+    }
+    
+    .button {
+      font-size: 18px;
+      line-height: 22px;
+      
+      &:hover {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  footer {
+    .text {
+      font-size: 17px;
+      line-height: 21px; 
+
+      &.big {
+        font-size: 17px;
+      }
+      
+      &.medium {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      
+    }
+    
+    .img-hapo-learn {
+      width: 150px;
+      height: 30.86px;
+    }
+    
+    .link-img {
+      width: 30px;
+      height: 30px;
     }
   }
 }
