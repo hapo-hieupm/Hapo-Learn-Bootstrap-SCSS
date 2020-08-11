@@ -219,15 +219,13 @@ header {
     text-align: center;
     letter-spacing: -0.02em;
     -webkit-text-stroke: 1px #FFFFFF;
-    @include text(bold 60px/74px 'UTM BryantLG',
-    #FFFFFF);
+    @include text(bold 60px/74px 'UTM BryantLG', #FFFFFF);
   }
 	
   .button {
     letter-spacing: -0.05em;
     -webkit-text-stroke: 0.3px $link_color;
-    @include text(bold 30px/37px 'UTM BryantLG',
-    $link_color);
+    @include text(bold 30px/37px 'UTM BryantLG', $link_color);
     @include primaryBtn(#FFFFFF,
     10px 50px,
     inset 0px 4px 4px rgba(0, 0, 0, 0.25),
@@ -244,8 +242,7 @@ header {
   .text-medium {
     text-align: center;
     letter-spacing: -0.05em;
-    @include text(bold 60px/74px 'UTM BryantLG',
-    $pri_text_color);
+    @include text(bold 60px/74px 'UTM BryantLG', $pri_text_color);
   }
 	
   .number {
