@@ -99,6 +99,55 @@
       }
     }
   }
+
+  .join-banner {
+    .text {
+      font-size: 35px;
+      line-height: 43px;
+    }
+    
+    .button {
+      font-size: 20px;
+      line-height: 25px;
+
+      &:hover {
+        font-size: 22px;
+      }
+    }
+  }
+
+  .statistic {
+    .text-medium {
+      font-size: 40px;
+      line-height: 49px;
+    }
+  }
+
+  footer {
+    .text {
+      font-size: 18px;
+      line-height: 22px;
+    
+      &.big {
+        font-size: 18px;
+      }
+      
+      &.medium {
+        font-size: 16px;
+        line-height: 20px;
+      }  
+    }
+    
+    .img-hapo-learn {
+      width: 170px;
+      height: 35.38px;
+    }
+    
+    .link-img {
+      width: 40px;
+      height: 40px;
+    }
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -112,6 +161,7 @@
     .nav-link {
       font-size: 16px;
       line-height: 22px;
+
       &:hover {
         color: $primary_color !important;
         font-size: 18px;
@@ -207,6 +257,49 @@
         font-size: 24px;
         -webkit-text-stroke: 0.75px $link_color;
       }
+    }
+  }
+
+  .join-banner {
+    .text {
+      font-size: 23px;
+      line-height: 28px;
+    }
+    
+    .button {
+      font-size: 18px;
+      line-height: 22px;
+      
+      &:hover {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  footer {
+    .text {
+      font-size: 17px;
+      line-height: 21px; 
+
+      &.big {
+        font-size: 17px;
+      }
+      
+      &.medium {
+        font-size: 14px;
+        line-height: 17px;
+      }
+      
+    }
+    
+    .img-hapo-learn {
+      width: 150px;
+      height: 30.86px;
+    }
+    
+    .link-img {
+      width: 30px;
+      height: 30px;
     }
   }
 }
