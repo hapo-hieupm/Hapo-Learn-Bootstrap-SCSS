@@ -226,10 +226,7 @@ header {
     letter-spacing: -0.05em;
     -webkit-text-stroke: 0.3px $link_color;
     @include text(bold 30px/37px 'UTM BryantLG', $link_color);
-    @include primaryBtn(#FFFFFF,
-    10px 50px,
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
-    35px);
+    @include primaryBtn(#FFFFFF, 10px 50px, inset 0px 4px 4px rgba(0, 0, 0, 0.25), 35px);
 	  
     &:hover {
       font-size: 32px;
