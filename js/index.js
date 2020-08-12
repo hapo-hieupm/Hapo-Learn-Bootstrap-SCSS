@@ -9,21 +9,21 @@ $(document).ready(function(){
         $('.mess-box').hide();
   });
 
-  $('.responsive').slick({
-    dots: true,
+  $('.feedback-slick').slick({
+    centerMode: false,
     infinite: false,
-    speed: 300,
+    autoplay: true,
+    autoplaySpeed: 500000,
+    prevArrow: $('.left'),
+    nextArrow: $('.right'),
     slidesToShow: 2,
     slidesToScroll: 1,
-    
     responsive: [
       {
-        
-        breakpoint: 768,
+        breakpoint: 769,
         settings: {
-          
             slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToScroll: 1,
         }
       }
     ]

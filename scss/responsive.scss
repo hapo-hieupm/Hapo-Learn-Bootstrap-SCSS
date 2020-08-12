@@ -151,12 +151,14 @@
 
   .why-hapo {
     .text-big {
+      margin-top: 0;
       font-size: 50px;
       line-height: 61px;
       text-align: center;
     }
     
     .text-ul {
+      margin-top: 0;
       font-size: 16px;
       line-height: 20px;
     }
@@ -164,12 +166,23 @@
     .img-rotate-computer {
       width: 271.81px;
       height: 271.81px;
-      margin: -18% 0 0 -15%;
+      margin: -9rem 0 0 -6rem;
     }
     
     .img-computer {
-      margin-top: -20%;
-      padding: 9% 1%;
+      margin-top: -2.5rem;
+      padding: 5% 1%;
+    }
+  }
+
+  .feedback {
+    .text-slogan {
+      font-size: 18px;
+      line-height: 22px;
+    }
+    
+    .next {
+      margin-top: -8.5rem;
     }
   }
 }
@@ -334,6 +347,7 @@
     }
     
     .text-ul {
+      margin-top: 3rem;
       font-size: 14px;
       line-height: 17px;
 
@@ -342,12 +356,47 @@
     .img-rotate-computer {
       width: 226.43px;
       height: 226.43px;
-      margin: -18% 0 0 -15%;
+      margin: -6rem 0 0 -5.5rem;
     }
     
     .img-computer {
       margin-top: -20%;
       padding: 9% 1%;
+    }
+  }
+
+  .feedback {
+    .text-slogan {
+      font-size: 16px;
+      line-height: 20px;
+    }
+    
+    .textbox {
+      .text {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+    
+    .user {
+      .ava {
+        width: 45px;
+        height: 45px;
+      }
+      
+      .text-user-name {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      
+      .text-course-name {
+        font-size: 14px;
+        line-height: 17px;
+      }
+    }
+    
+    .next {
+      margin-top: -10.5rem;
     }
   }
 }
