@@ -8,7 +8,7 @@ $link_color: #90AB26;
   src: url('../font/UTM_BryantLG.ttf');
 }
 
-@mixin text($font,$color) {
+@mixin text($font, $color) {
   font: $font;
   color: $color !important; 
 }
@@ -17,6 +17,7 @@ $link_color: #90AB26;
   text-decoration: none;
   background-color: $bg_color !important;
   padding: $padding !important;
+
   box-shadow: $shadow;
   border-radius: $border_radius;
   transition: 0s;

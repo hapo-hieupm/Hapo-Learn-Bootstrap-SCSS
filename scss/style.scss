@@ -26,7 +26,7 @@ header {
     text-transform: uppercase;
     @include text(bold 14px/19px 'Open Sans', #505353);
     @include primaryBtn(transparent, 10px 12px, none, 17px);
-
+    
     &:hover {
       color: #FEFFFF !important;
       background-color: $primary_color !important;
@@ -64,13 +64,13 @@ header {
     opacity: 1;
     transition: 0.3s;
     @include text(bold 30px/37px 'UTM BryantLG', #FFFFFF);
-    @include primaryBtn($primary_color, 10px 50px, inset 0px 4px 4px rgba(0, 0, 0, 0.25), 35px);
+    @include primaryBtn($primary_color, 10px 50px, inset 0 4px 4px rgba(0, 0, 0, 0.25), 35px);
     
     &:hover {
       font-size: 31px;
       opacity: 0.9;
       padding: 13px 50px;
-      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
     }
   }
 	
@@ -329,19 +329,14 @@ header {
     text-align: center;
     letter-spacing: -0.02em;
     -webkit-text-stroke: 1px #FFFFFF;
-    @include text(bold 60px/74px 'UTM BryantLG',
-    #FFFFFF);
+    @include text(bold 60px/74px 'UTM BryantLG', #FFFFFF);
   }
 	
   .button {
     letter-spacing: -0.05em;
     -webkit-text-stroke: 0.3px $link_color;
-    @include text(bold 30px/37px 'UTM BryantLG',
-    $link_color);
-    @include primaryBtn(#FFFFFF,
-    10px 50px,
-    inset 0px 4px 4px rgba(0, 0, 0, 0.25),
-    35px);
+    @include text(bold 30px/37px 'UTM BryantLG', $link_color);
+    @include primaryBtn(#FFFFFF, 10px 50px, inset 0px 4px 4px rgba(0, 0, 0, 0.25), 35px);
 	  
     &:hover {
       font-size: 32px;
@@ -354,8 +349,7 @@ header {
   .text-medium {
     text-align: center;
     letter-spacing: -0.05em;
-    @include text(bold 60px/74px 'UTM BryantLG',
-    $pri_text_color);
+    @include text(bold 60px/74px 'UTM BryantLG', $pri_text_color);
   }
 	
   .number {
