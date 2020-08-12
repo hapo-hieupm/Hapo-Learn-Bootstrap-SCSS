@@ -212,7 +212,117 @@ header {
   } 
 }
 
+.why-hapo {
+  background: url('../image/nen_den.jpeg') no-repeat center/cover;
+  
+  .text-big {
+    margin-top: -4rem;
+    letter-spacing: -0.02em;
+    -webkit-text-stroke: 1px #FFFFFF;
+    @include text(bold 70px/86px 'UTM BryantLG', #FFFFFF);
+  }
+  
+  .text-ul {
+    margin-top: -1rem;
+    letter-spacing: -0.05em;
+    @include text(20px/25px 'UTM BryantLG', #FFFFFF);
+  }
+  
+  .img-rotate-computer {
+    width: 478.32px;
+    height: 478.32px;
+    margin: -15rem 0 0 -9rem;
+    transform: rotate(17.15deg);
+  }
+  
+  .img-computer {
+    margin-top: -18rem;
+    padding: 9% 3%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+}
+
+.feedback {
+  .text-slogan {
+    text-align: center;
+    letter-spacing: -0.02em;
+    @include text(25px/31px 'UTM BryantLG', $pri_text_color);
+  }
+	
+  .textbox {
+    border: 1.5px solid #E2E2E2;
+    box-shadow: 0.5px 0.5px 0 0 #969694;
+    border-radius: 10px;
+    .text {
+      overflow: auto;
+      letter-spacing: -0.05em;
+      border-left: 5px solid #D9DADC;
+      @include text(16px/20px 'UTM BryantLG', #000000);
+    }
+  }
+	
+  .user {
+    &:after,
+    &:before {
+      margin-left: 3rem;
+      content: '';
+      border: solid transparent;
+      position: absolute;
+    }
+	  
+    &:after {
+      border-top-color: #FFFFFF;
+      border-width: 10px;
+    }
+	  
+    &:before {
+      border-top-color: #E2E2E2;
+      border-width: 12px;
+    }
+	  
+    .ava {
+      float: left;
+      width: 60px;
+      height: 60px;
+    }
+	  
+    .text-user-name {
+      -webkit-text-stroke: 0.5px $title_text_color;
+      @include text(bold 20px/25px 'UTM BryantLG', $title_text_color);
+    }
+	  
+    .text-course-name {
+      @include text(16px/20px 'UTM BryantLG', $pri_text_color);
+    }
+	  
+    .star {
+      color: #F2C54F;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+	
+  .next {
+    margin-top: -9.5rem;
+	  
+    a {
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      border: 0.5px solid #C4C4C4;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+	  
+    i {
+      padding: 0 6px;
+    }
+  }
+}
+
+
 .join-banner {
+  margin-top: 8rem;
   background: url('../image/nen_xanh_hoa_tiet.png') no-repeat center/cover;
 	
   .text {
