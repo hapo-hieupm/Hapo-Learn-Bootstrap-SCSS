@@ -6,6 +6,12 @@
   list-style: none; }
   * a {
     text-decoration: none; }
+  * img {
+    width: 100%; }
+  * .slick-slide {
+    outline: none; }
+    * .slick-slide:focus, * .slick-slide a {
+      outline: none; }
 
 header .navbar-toggler.collapsed .close-icon {
   display: none; }
@@ -151,11 +157,11 @@ header .img-logo {
 .other-course .img-bg.right {
   background: #1B75BB; }
 .other-course .img-css {
-  padding: 16% 12%; }
+  padding: 13% 12%; }
 .other-course .img-ruby {
   padding: 14% 12%; }
 .other-course .img-java {
-  padding: 2.5% 12%; }
+  padding: 4.25% 12%; }
 .other-course .text-link {
   letter-spacing: -0.02em;
   text-align: center;
@@ -169,7 +175,7 @@ header .img-logo {
 .why-hapo {
   background: url("../image/nen_den.jpeg") no-repeat center/cover; }
   .why-hapo .text-big {
-    margin-top: -4rem;
+    margin-top: -5rem;
     letter-spacing: -0.02em;
     -webkit-text-stroke: 1px #FFFFFF;
     font: bold 70px/86px "UTM BryantLG";
@@ -185,8 +191,7 @@ header .img-logo {
     margin: -15rem 0 0 -9rem;
     transform: rotate(17.15deg); }
   .why-hapo .img-computer {
-    margin-top: -18rem;
-    padding: 9% 3%;
+    margin-top: -16rem;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25)); }
 
 .feedback .text-slogan {
@@ -449,9 +454,9 @@ footer .div-content-back {
   .why-hapo .img-rotate-computer {
     width: 271.81px;
     height: 271.81px;
-    margin: -9rem 0 0 -6rem; }
+    margin: -9rem 0 0 -5rem; }
   .why-hapo .img-computer {
-    margin-top: -2.5rem;
+    margin-top: -4.5rem;
     padding: 5% 1%; }
 
   .feedback .text-slogan {
@@ -565,19 +570,19 @@ footer .div-content-back {
     height: 30px; }
 
   .why-hapo .text-big {
+    margin: 1rem 0 0 -1rem;
+    text-align: left;
     font-size: 40px;
     line-height: 40px; }
   .why-hapo .text-ul {
-    margin-top: 3rem;
     font-size: 14px;
     line-height: 17px; }
   .why-hapo .img-rotate-computer {
     width: 226.43px;
     height: 226.43px;
-    margin: -6rem 0 0 -5.5rem; }
+    margin: -6rem 0 0 -4.5rem; }
   .why-hapo .img-computer {
-    margin-top: -20%;
-    padding: 9% 1%; }
+    padding: 9% 1% 1%; }
 
   .feedback .text-slogan {
     font-size: 16px;

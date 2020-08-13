@@ -94,7 +94,30 @@
     height: 35.38px; }
   footer .link-img {
     width: 40px;
-    height: 40px; } }
+    height: 40px; }
+
+  .why-hapo .text-big {
+    margin-top: 0;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center; }
+  .why-hapo .text-ul {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 20px; }
+  .why-hapo .img-rotate-computer {
+    width: 271.81px;
+    height: 271.81px;
+    margin: -9rem 0 0 -5rem; }
+  .why-hapo .img-computer {
+    margin-top: -4.5rem;
+    padding: 5% 1%; }
+
+  .feedback .text-slogan {
+    font-size: 18px;
+    line-height: 22px; }
+  .feedback .next {
+    margin-top: -8.5rem; } }
 @media only screen and (max-width: 425px) {
   header .img-logo {
     margin-left: -11%;
@@ -198,6 +221,39 @@
     height: 30.86px; }
   footer .link-img {
     width: 30px;
-    height: 30px; } }
+    height: 30px; }
+
+  .why-hapo .text-big {
+    margin: 1rem 0 0 -1rem;
+    text-align: left;
+    font-size: 40px;
+    line-height: 40px; }
+  .why-hapo .text-ul {
+    font-size: 14px;
+    line-height: 17px; }
+  .why-hapo .img-rotate-computer {
+    width: 226.43px;
+    height: 226.43px;
+    margin: -6rem 0 0 -4.5rem; }
+  .why-hapo .img-computer {
+    padding: 9% 1% 1%; }
+
+  .feedback .text-slogan {
+    font-size: 16px;
+    line-height: 20px; }
+  .feedback .textbox .text {
+    font-size: 14px;
+    line-height: 17px; }
+  .feedback .user .ava {
+    width: 45px;
+    height: 45px; }
+  .feedback .user .text-user-name {
+    font-size: 16px;
+    line-height: 20px; }
+  .feedback .user .text-course-name {
+    font-size: 14px;
+    line-height: 17px; }
+  .feedback .next {
+    margin-top: -10.5rem; } }
 
 /*# sourceMappingURL=responsive.css.map */
