@@ -101,7 +101,10 @@ header .img-logo {
   color: #B2D235 !important; }
 .other-course .text-small,
 .course .text-small {
-  overflow: auto;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
   text-align: center;
   letter-spacing: -0.05em;
   font: bold 14px/20px "UTM BryantLG";
@@ -114,14 +117,13 @@ header .img-logo {
   color: #FFFFFF !important;
   text-decoration: none;
   background-color: #B2D235 !important;
-  padding: 1rem 0 !important;
+  padding: 0.75rem 0 !important;
   box-shadow: inset 0 1.5px 2px #6F8710;
   border-radius: 22px;
   transition: 0s;
   text-align: center; }
   .other-course .button:hover,
   .course .button:hover {
-    padding: 1rem 0 !important;
     border-radius: 30px;
     font-size: 19px; }
 
@@ -218,7 +220,7 @@ header .img-logo {
     font: 16px/20px "UTM BryantLG";
     color: #000000 !important; }
 .feedback .user:after, .feedback .user:before {
-  margin-left: 3rem;
+  margin-left: 2.35rem;
   content: '';
   border: solid transparent;
   position: absolute; }
@@ -287,6 +289,8 @@ header .img-logo {
 .statistic .number {
   color: #B2D235 !important; }
 
+footer .tooltip {
+  padding-top: 1rem !important; }
 footer .div-content-grey {
   border-bottom: 1px soild #454545;
   background-color: #505353;
@@ -408,9 +412,11 @@ footer .div-content-back {
       font-size: 11px; }
 
   .course {
-    margin-top: -7rem; }
+    margin-top: -6rem; }
     .course .card {
-      height: 80%; }
+      height: 90%; }
+    .course .img-bg {
+      height: 40%; }
 
   .feedback .text-title,
   .statistic .text-title,
@@ -480,7 +486,7 @@ footer .div-content-back {
     font-size: 18px;
     line-height: 22px; }
   .feedback .next {
-    margin-top: -10.75rem; } }
+    margin-top: -9rem; } }
 @media only screen and (max-width: 425px) {
   header .img-logo {
     margin-left: -11%;
@@ -504,7 +510,7 @@ footer .div-content-back {
     background-size: 115% 50%;
     background-position: right top; }
     .banner ul {
-      margin: 59% 0 0 8%; }
+      margin: 59% 0 0 4%; }
     .banner .title,
     .banner .title.medium {
       font-size: 25px;
@@ -546,6 +552,8 @@ footer .div-content-back {
 
   .course {
     margin-top: -10rem; }
+    .course .img-bg {
+      height: 45%; }
 
   .feedback .text-title,
   .statistic .text-title,
@@ -593,10 +601,11 @@ footer .div-content-back {
     font-size: 40px;
     line-height: 40px; }
   .why-hapo .text-ul {
+    letter-spacing: 0;
     font-size: 14px;
     line-height: 17px; }
     .why-hapo .text-ul i {
-      font-size: 17px; }
+      font-size: 16px; }
   .why-hapo .img-rotate-computer {
     width: 226.43px;
     height: 226.43px;

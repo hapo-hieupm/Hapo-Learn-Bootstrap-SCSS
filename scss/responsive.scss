@@ -70,10 +70,14 @@
   }
 
   .course {
-    margin-top: -7rem;
+    margin-top: -6rem;
 
     .card {
-      height: 80%;
+      height: 90%;
+    }
+
+    .img-bg {
+      height: 40%;
     }
   }
   
@@ -188,7 +192,7 @@
     }
     
     .next {
-      margin-top: -10.75rem;
+      margin-top: -9rem;
     }
   }
 }
@@ -218,7 +222,7 @@
     background-position: right top;
 
     ul {
-      margin: 59% 0 0 8%;
+      margin: 59% 0 0 4%;
     }
 
     .title,
@@ -278,6 +282,10 @@
   
   .course {
     margin-top: -10rem;
+
+    .img-bg {
+      height: 45%;
+    }
   }
   
   .feedback,
@@ -356,10 +364,12 @@
     }
     
     .text-ul {
+      letter-spacing: 0;
       font-size: 14px;
       line-height: 17px;
+
       i {
-        font-size: 17px;
+        font-size: 16px;
       }
     }
     

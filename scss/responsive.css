@@ -48,9 +48,11 @@
       font-size: 11px; }
 
   .course {
-    margin-top: -7rem; }
+    margin-top: -6rem; }
     .course .card {
-      height: 80%; }
+      height: 90%; }
+    .course .img-bg {
+      height: 40%; }
 
   .feedback .text-title,
   .statistic .text-title,
@@ -120,7 +122,7 @@
     font-size: 18px;
     line-height: 22px; }
   .feedback .next {
-    margin-top: -10.75rem; } }
+    margin-top: -9rem; } }
 @media only screen and (max-width: 425px) {
   header .img-logo {
     margin-left: -11%;
@@ -144,7 +146,7 @@
     background-size: 115% 50%;
     background-position: right top; }
     .banner ul {
-      margin: 59% 0 0 8%; }
+      margin: 59% 0 0 4%; }
     .banner .title,
     .banner .title.medium {
       font-size: 25px;
@@ -186,6 +188,8 @@
 
   .course {
     margin-top: -10rem; }
+    .course .img-bg {
+      height: 45%; }
 
   .feedback .text-title,
   .statistic .text-title,
@@ -233,10 +237,11 @@
     font-size: 40px;
     line-height: 40px; }
   .why-hapo .text-ul {
+    letter-spacing: 0;
     font-size: 14px;
     line-height: 17px; }
     .why-hapo .text-ul i {
-      font-size: 17px; }
+      font-size: 16px; }
   .why-hapo .img-rotate-computer {
     width: 226.43px;
     height: 226.43px;

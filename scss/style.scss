@@ -125,7 +125,11 @@ header {
   }
   
   .text-small {
-    overflow: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    
     text-align: center;
     letter-spacing: -0.05em;
     @include text(bold 14px/20px 'UTM BryantLG', $pri_text_color);
@@ -135,10 +139,9 @@ header {
     letter-spacing: -0.05em;
     -webkit-text-stroke: 0.3px #FFFFFF;
     @include text(bold 18px/22px 'UTM BryantLG', #FFFFFF);
-    @include primaryBtn($primary_color, 1rem 0, inset 0 1.5px 2px #6F8710, 22px);
+    @include primaryBtn($primary_color, 0.75rem 0, inset 0 1.5px 2px #6F8710, 22px);
     
     &:hover {
-      padding: 1rem 0 !important;
       border-radius: 30px;
       font-size: 19px;
     }
@@ -289,7 +292,7 @@ header {
   .user {
     &:after,
     &:before {
-      margin-left: 3rem;
+      margin-left: 2.35rem;
       content: '';
       border: solid transparent;
       position: absolute;
@@ -383,6 +386,9 @@ header {
 }
 
 footer {
+  .tooltip {
+    padding-top: 1rem !important;
+  } 
   .div-content-grey {
     border-bottom: 1px soild #454545;
     background-color: $pri_text_color;
