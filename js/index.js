@@ -11,9 +11,9 @@ $(document).ready(function(){
 
   $('.feedback-slick').slick({
     centerMode: false,
-    infinite: false,
+    infinite: true,
     autoplay: true,
-    autoplaySpeed: 500000,
+    autoplaySpeed: 5000,
     prevArrow: $('.left'),
     nextArrow: $('.right'),
     slidesToShow: 2,

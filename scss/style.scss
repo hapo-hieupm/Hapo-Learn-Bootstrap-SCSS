@@ -35,6 +35,7 @@ header {
   
   .nav-link {
     text-transform: uppercase;
+    -webkit-text-stroke: 0.3px $pri_text_color;
     @include text(bold 14px/19px 'Open Sans', #505353);
     @include primaryBtn(transparent, 10px 12px, none, 17px);
     
@@ -44,6 +45,14 @@ header {
     }
   }
   
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'><path stroke='rgba(80, 83, 83, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>") !important;
+  }
+
+  .close-icon {
+    color: $pri_text_color;
+  }
+
   .img-logo {
     width: 340px;
     height: 70px;
@@ -126,10 +135,10 @@ header {
     letter-spacing: -0.05em;
     -webkit-text-stroke: 0.3px #FFFFFF;
     @include text(bold 18px/22px 'UTM BryantLG', #FFFFFF);
-    @include primaryBtn($primary_color, 3% 0, inset 0 1.5px 2px #6F8710, 22px);
+    @include primaryBtn($primary_color, 1rem 0, inset 0 1.5px 2px #6F8710, 22px);
     
     &:hover {
-      padding: 3% 0 !important;
+      padding: 1rem 0 !important;
       border-radius: 30px;
       font-size: 19px;
     }
@@ -138,7 +147,11 @@ header {
 
 .course {
   margin-top: -7.5rem;
-  
+
+  .card {
+    height: 90%;
+  }
+
   .img-bg {
     height: 45%;
   }
@@ -234,9 +247,11 @@ header {
   }
   
   .text-ul {
-    margin-top: -1rem;
     letter-spacing: -0.05em;
     @include text(20px/25px 'UTM BryantLG', #FFFFFF);
+    i {
+      font-size: 23px;
+    }
   }
   
   .img-rotate-computer {
@@ -247,7 +262,7 @@ header {
   }
   
   .img-computer {
-    margin-top: -16rem;
+    margin-top: -10.5rem;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   }
 }
@@ -325,7 +340,7 @@ header {
     }
 	  
     i {
-      padding: 0 6px;
+      padding: 5px 10px;
     }
   }
 }
@@ -369,6 +384,7 @@ header {
 
 footer {
   .div-content-grey {
+    border-bottom: 1px soild #454545;
     background-color: $pri_text_color;
     background-size: cover;
   }
@@ -389,7 +405,7 @@ footer {
   }
 	
   .img-hapo-learn {
-    margin-top: -5.5%;
+    margin-top: -1.25rem;
     width: 292px;
     height: 60px;
   }
@@ -400,16 +416,23 @@ footer {
   }
 	
   .div-content-back {
+    border-top: 1px soild #454545;
     background-color: #454545;
     background-size: cover;
   }
 }
 
 .mess {
+
   .mess-box {
+    display: none;
+  }
+  .box {
     position: fixed;
     bottom: 5.75rem;
     right: 2.25rem;
+    width: 22.5rem;
+    height: 12rem;
     border: 1px solid #FFFFFF;
     background: #FFFFFF;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
@@ -434,7 +457,7 @@ footer {
       background-color: #3184F7;
       border-radius: 10px;
       color: #FFFFFF !important;
-      padding: 2% 10%;
+      padding: 0.55rem 2rem;
     }
     
     &.white:hover {
@@ -444,7 +467,7 @@ footer {
     &.background-grey {
       background-color: #F1F0F0;
       border-radius: 15px;
-      padding: 5px 4px;
+      padding: 0.68rem 0.35rem;
     }
   }
   

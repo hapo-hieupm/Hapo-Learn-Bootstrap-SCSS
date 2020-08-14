@@ -48,7 +48,9 @@
       font-size: 11px; }
 
   .course {
-    margin-top: -4rem; }
+    margin-top: -7rem; }
+    .course .card {
+      height: 80%; }
 
   .feedback .text-title,
   .statistic .text-title,
@@ -102,22 +104,23 @@
     line-height: 61px;
     text-align: center; }
   .why-hapo .text-ul {
-    margin-top: 0;
     font-size: 16px;
     line-height: 20px; }
+    .why-hapo .text-ul i {
+      font-size: 19px; }
   .why-hapo .img-rotate-computer {
     width: 271.81px;
     height: 271.81px;
     margin: -9rem 0 0 -5rem; }
   .why-hapo .img-computer {
-    margin-top: -4.5rem;
+    margin-top: -3.25rem;
     padding: 5% 1%; }
 
   .feedback .text-slogan {
     font-size: 18px;
     line-height: 22px; }
   .feedback .next {
-    margin-top: -8.5rem; } }
+    margin-top: -10.75rem; } }
 @media only screen and (max-width: 425px) {
   header .img-logo {
     margin-left: -11%;
@@ -138,10 +141,10 @@
       text-align: center; }
 
   .banner {
-    background-size: 100% 46%;
-    background-position: center top; }
+    background-size: 115% 50%;
+    background-position: right top; }
     .banner ul {
-      margin: 54% 0 0 8%; }
+      margin: 59% 0 0 8%; }
     .banner .title,
     .banner .title.medium {
       font-size: 25px;
@@ -175,7 +178,8 @@
   .other-course .button,
   .course .button {
     font-size: 18px;
-    line-height: 22px; }
+    line-height: 22px;
+    padding: 0.75rem 0 !important; }
     .other-course .button:hover,
     .course .button:hover {
       font-size: 19px; }
@@ -231,6 +235,8 @@
   .why-hapo .text-ul {
     font-size: 14px;
     line-height: 17px; }
+    .why-hapo .text-ul i {
+      font-size: 17px; }
   .why-hapo .img-rotate-computer {
     width: 226.43px;
     height: 226.43px;
@@ -254,6 +260,6 @@
     font-size: 14px;
     line-height: 17px; }
   .feedback .next {
-    margin-top: -10.5rem; } }
+    margin-top: -9.25rem; } }
 
 /*# sourceMappingURL=responsive.css.map */

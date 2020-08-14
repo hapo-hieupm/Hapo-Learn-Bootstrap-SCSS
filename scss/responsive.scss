@@ -70,7 +70,11 @@
   }
 
   .course {
-    margin-top: -4rem;
+    margin-top: -7rem;
+
+    .card {
+      height: 80%;
+    }
   }
   
   .feedback,
@@ -158,9 +162,11 @@
     }
     
     .text-ul {
-      margin-top: 0;
       font-size: 16px;
       line-height: 20px;
+      i {
+        font-size: 19px;
+      }
     }
     
     .img-rotate-computer {
@@ -170,7 +176,7 @@
     }
     
     .img-computer {
-      margin-top: -4.5rem;
+      margin-top: -3.25rem;
       padding: 5% 1%;
     }
   }
@@ -182,7 +188,7 @@
     }
     
     .next {
-      margin-top: -8.5rem;
+      margin-top: -10.75rem;
     }
   }
 }
@@ -207,12 +213,12 @@
     }
   }
   
-  .banner {  
-    background-size: 100% 46%;
-    background-position: center top;
+  .banner { 
+    background-size: 115% 50%;
+    background-position: right top;
 
     ul {
-      margin: 54% 0 0 8%;
+      margin: 59% 0 0 8%;
     }
 
     .title,
@@ -262,6 +268,7 @@
     .button {
       font-size: 18px;
       line-height: 22px;
+      padding: 0.75rem 0 !important;
       
       &:hover {
         font-size: 19px;
@@ -351,6 +358,9 @@
     .text-ul {
       font-size: 14px;
       line-height: 17px;
+      i {
+        font-size: 17px;
+      }
     }
     
     .img-rotate-computer {
@@ -395,7 +405,7 @@
     }
     
     .next {
-      margin-top: -10.5rem;
+      margin-top: -9.25rem;
     }
   }
 }
